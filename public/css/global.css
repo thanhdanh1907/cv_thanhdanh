@@ -1,0 +1,21 @@
+.clearfix {
+    clear: both;
+    display: block;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+
+/* a {
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+
+p {
+    margin: 0px !important;
+    padding: 0px !important;
+} */

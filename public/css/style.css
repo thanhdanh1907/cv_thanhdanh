@@ -1,0 +1,345 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#site {
+    background-color: #272629;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+    color: #fff;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #666;
+}
+
+
+/*
+|===============================================
+|================== HEADER =====================
+|===============================================
+*/
+
+#wp-header {
+    margin-bottom: 30px;
+}
+
+#user-info {
+    width: 58%;
+    float: left;
+    margin-right: 2%;
+}
+
+#about-part {
+    width: 36%;
+    float: right;
+    margin-left: 2%;
+    padding: 40px 0px;
+}
+
+#about-me {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#about-me .user-name {
+    font-size: 2.5rem;
+    color: #00B496;
+}
+
+#about-me .user-title {
+    font-size: 1rem;
+    color: #008890;
+    letter-spacing: 7px;
+    margin: 0px;
+}
+
+#about-me .user-title::before {
+    content: '<>';
+}
+
+#about-me .user-title::after {
+    content: '</>';
+}
+
+h3.title {
+    font-weight: 400;
+    border-bottom: 2px solid #666;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+}
+
+h3.title::before {
+    content: '\f292';
+    font-family: 'FontAwesome';
+    margin-right: 5px;
+}
+
+.avatar {
+    width: 33%;
+    /* height: 277px; */
+    float: left;
+    margin-right: 2%;
+    border: 1px solid #fff;
+    padding: 7px;
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    width: 63%;
+    margin-left: 2%;
+    padding: 10px;
+    float: right;
+}
+
+.intro p {
+    letter-spacing: 2px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+
+/* =============== END USER-INFO ============== */
+
+#about-part h3.title {
+    text-align: right;
+}
+
+.section p i {
+    margin-right: 15px;
+    color: #00B496;
+    font-size: 18px;
+}
+
+
+/*
+|===============================================
+|=================== MAIN ======================
+|===============================================
+*/
+
+#wp-content-skills,
+#wp-content-certificates,
+#wp-content-interests,
+#wp-content-education,
+#wp-content-work-experience,
+#wp-content-project-participation {
+    border: 2px solid #666;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#wp-content-skills:hover,
+#wp-content-certificates:hover,
+#wp-content-interests:hover,
+#wp-content-education:hover,
+#wp-content-work-experience:hover,
+#wp-content-project-participation:hover {
+    border: 2px solid #00B496;
+}
+
+#main-left {
+    width: 38%;
+    margin-right: 2%;
+    float: left;
+}
+
+#main-right {
+    width: 58%;
+    margin-left: 2%;
+    float: right;
+}
+
+.content-title {
+    font-weight: 400;
+    border-bottom: 2px solid #666;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+    color: #70faee;
+}
+
+.content-title::after {
+    content: "/>";
+}
+
+.content-title::before {
+    content: '<';
+}
+
+.content-skills p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+}
+
+.content-skills p::before {
+    content: '- -';
+    margin-right: 10px;
+}
+
+.content-skills li {
+    margin-bottom: 10px;
+}
+
+.skill-level {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    flex: 10%;
+    background-color: #00B496;
+    height: 7px;
+    border-right: 1px solid #666;
+    -webkit-transform: skew(-50deg);
+}
+
+li:nth-of-type(1) .box:nth-of-type(9),
+li:nth-of-type(1) .box:nth-of-type(10) {
+    background-color: #fff;
+}
+
+li:nth-of-type(2) .box:nth-of-type(7),
+li:nth-of-type(2) .box:nth-of-type(8),
+li:nth-of-type(2) .box:nth-of-type(9),
+li:nth-of-type(2) .box:nth-of-type(10) {
+    background-color: #fff;
+}
+
+li:nth-of-type(3) .box:nth-of-type(8),
+li:nth-of-type(3) .box:nth-of-type(9),
+li:nth-of-type(3) .box:nth-of-type(10) {
+    background-color: #fff;
+}
+
+li:nth-of-type(4) .box:nth-of-type(4),
+li:nth-of-type(4) .box:nth-of-type(5),
+li:nth-of-type(4) .box:nth-of-type(6),
+li:nth-of-type(4) .box:nth-of-type(7),
+li:nth-of-type(4) .box:nth-of-type(8),
+li:nth-of-type(4) .box:nth-of-type(9),
+li:nth-of-type(4) .box:nth-of-type(10) {
+    background-color: #fff;
+}
+
+li:nth-of-type(5) .box:nth-of-type(5),
+li:nth-of-type(5) .box:nth-of-type(6),
+li:nth-of-type(5) .box:nth-of-type(7),
+li:nth-of-type(5) .box:nth-of-type(8),
+li:nth-of-type(5) .box:nth-of-type(9),
+li:nth-of-type(5) .box:nth-of-type(10) {
+    background-color: #fff;
+}
+
+
+/* ===================== content-certificates ========================= */
+
+.content-certificates .date {
+    margin-bottom: 5px;
+}
+
+.content-certificates .cer {
+    color: #00B496;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* ===================== content-interests ========================= */
+
+.content-interests .int p:nth-of-type(1) {
+    float: left;
+    margin-right: 80px;
+}
+
+.content-interests .int:nth-of-type(2) p:nth-of-type(1) {
+    margin-right: 140px;
+}
+
+
+/* ===================== content-education ========================= */
+
+.content-education,
+.content-work-experience {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.date {
+    border: 1px solid #666;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.addr {
+    font-size: 18px;
+    color: #00B496;
+}
+
+.addr i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.line {
+    content: '';
+    width: 1px;
+    height: 55px;
+    background-color: #fff;
+    position: absolute;
+    top: 90px;
+    left: 12px;
+}
+
+.desc {
+    color: #a8a8a8;
+    padding: 0px 40px;
+    position: relative;
+    margin-left: 10px;
+    border-left: 1px solid #ffffff;
+}
+
+.desc p {
+    margin-bottom: 10px;
+}
+
+.desc p span {
+    color: #00B496;
+}
+
+.content-education .desc .line {
+    position: absolute;
+    top: 30px;
+    left: 51px;
+    content: '';
+    width: 1px;
+    height: 45px;
+    background-color: #fff;
+}
+
+
+/* ===================== content-work-experience ========================= */
+
+.content-work-experience .desc p {
+    color: #70faee;
+}
+
+.content-work-experience .desc p span {
+    color: #ffffff;
+}
